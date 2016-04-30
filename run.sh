@@ -16,5 +16,5 @@ for spider in $(scrapy list); do
 done
 
 for f in scrapes/*_${timestamp}.json; do
-    [ -f "$f" ] && ./makereport.py "$f"
+    [ -f "$f" ] && ./makereport.py "$f" || true
 done
