@@ -26,9 +26,9 @@ command::
     ./run.sh
 
 Each time this command is executed, a new "database" file is created. To get
-the new advertisements through email, you can use the `reporter.sh` script. It
-either sends new ads through email or sends the whole stderr in case of a
-failure. Mail text is constructed in the `makereport.py`; `sendreport.py`
+the new advertisements through email, you can use the ``reporter.sh`` script.
+It either sends new ads through email or sends the whole stderr in case of a
+failure. Mail text is constructed in the ``makereport.py``; ``sendreport.py``
 is a helper script that sends the email through the local SMTP server.
 
 License
